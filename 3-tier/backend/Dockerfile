@@ -2,7 +2,7 @@
 FROM node:18
 
 # set working directory
-WORKDIR /app
+WORKDIR /etc/app
 
 # copy package.json
 COPY package.json .
